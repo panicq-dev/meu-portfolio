@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriel Almeida dos Santos — Engenheiro de Software</title>
+  <meta name="description" content="Portfólio de Gabriel Almeida dos Santos, Engenheiro de Software em formação na FIAP, focado em backend com C#/.NET e Java." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Toggle dark mode (CSS-only checkbox hack) -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input" />
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">gabriel.dev</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#formacao">Formação</a></li>
+        </ul>
+      </nav>
+      <label for="theme-toggle" class="theme-toggle" title="Alternar tema">
+        <span class="sun">☀</span>
+        <span class="moon">☾</span>
+      </label>
+    </div>
+  </header>
+
+  <main id="top" class="container">
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Gabriel Almeida dos Santos</h1>
+      <p class="role">Engenheiro de Software em formação · Backend C#/.NET e Java</p>
+      <p class="lead">
+        Estudante da FIAP com foco em desenvolvimento backend, mas também aberto
+        a Front End. Trabalho com C#/.NET e Java, desenvolvimento de aplicações,
+        consumo de APIs, modelagem de banco de dados e programação orientada a
+        objetos.
+      </p>
+      <div class="cta-row">
+        <a href="#projetos" class="btn btn-primary">Meus projetos</a>
+        <a href="https://github.com/panicq-dev" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="https://linkedin.com/in/gabriel-almeida-dos-santos-25421838b" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+      <h2>Sobre mim</h2>
+      <div class="grid-2">
+        <p class="muted">
+           Engenheiro de Software em formação pela FIAP com foco em desenvolvimento backend - mas aberto a parte de Front End- utilizando C#/.NET e Java. Possuo experiência no desenvolvimento de aplicações, consumo de APIs, modelagem de banco de dados e programação orientada a objetos. Perfil analítico, com facilidade para aprendizado contínuo, resolução de problemas e desenvolvimento de soluções eficientes
+        </p>
+        <div class="card">
+          <h3 class="card-title">Idiomas</h3>
+          <ul class="lang-list">
+            <li><strong>Português</strong><span>Nativo</span></li>
+            <li><strong>Inglês</strong><span>Acima do Intermediário (B2)</span></li>
+            <li><strong>Espanhol</strong><span>Básico</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Habilidades</h2>
+      <div class="grid-2">
+        <div class="card">
+          <h3 class="card-title">Tech Skills</h3>
+          <ul class="chip-list">
+            <li>C#</li><li>.NET</li><li>Java</li><li>Kotlin</li>
+            <li>JavaScript</li><li>React</li><li>HTML/CSS</li><li>Python</li>
+            <li>MySQL</li><li>REST APIs</li><li>Git</li><li>GitHub</li>
+            <li>Mobile Development</li><li>POO</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="card-title">Soft Skills</h3>
+          <ul class="bullet-list">
+            <li>Facilidade de aprendizado</li>
+            <li>Adaptabilidade</li>
+            <li>Comunicação técnica, empática e assertiva</li>
+            <li>Pensamento analítico</li>
+            <li>Organização e atenção aos detalhes</li>
+            <li>Comprometimento com qualidade e boas práticas</li>
+            <li>Perfil proativo e focado em evolução técnica constante</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="section">
+      <h2>Meus projetos</h2>
+      <article class="project">
+        <div class="project-head">
+          <h3>Notez — Modo de Estudos</h3>
+          <span class="status">em andamento</span>
+        </div>
+        <p class="muted">
+          Criação da funcionalidade nativa de câmera <strong>Modo de Estudos</strong>.
+          A funcionalidade permite que o usuário fotografe conteúdos acadêmicos e
+          envie automaticamente as imagens para o aplicativo, que utiliza
+          Inteligência Artificial para identificar textos, fórmulas e temas,
+          organizando o material por matéria. O sistema também gera resumos,
+          flashcards e exercícios personalizados para potencializar o aprendizado.
+        </p>
+        <div class="project-actions">
+          <a href="https://roberto-dantas.github.io/Sprint-2-Front-end_Design-1ESPV-2026" target="_blank" rel="noopener" class="btn btn-primary">Ver projeto</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- Formação -->
+    <section id="formacao" class="section">
+      <h2>Formação acadêmica</h2>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Engenharia de Software</h3>
+            <span class="period">Jan. 2026 – Dez. 2029</span>
+          </div>
+          <p class="org">FIAP — Faculdade de Informática e Administração Paulista</p>
+          <p class="muted">Graduação com foco em desenvolvimento de software, arquitetura de sistemas e boas práticas.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Técnico em Desenvolvimento de Sistemas</h3>
+            <span class="period">Jan. 2024 – Dez. 2025</span>
+          </div>
+          <p class="org">Etec Adhemar Batista Heméritas — Aricanduva, São Paulo/SP</p>
+          <p class="muted">Lógica de programação, POO, banco de dados, desenvolvimento web e mobile.</p>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-head">
+            <h3>Técnico Administrativo</h3>
+            <span class="period">Jan. 2023 – Dez. 2025</span>
+          </div>
+          <p class="org">Etec Martin Luther King — Tatuapé, São Paulo/SP</p>
+          <p class="muted">Formação técnica complementar com base em gestão, organização e processos.</p>
+        </li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Gabriel Almeida dos Santos</p>
+      <div class="footer-links">
+        <a href="https://github.com/panicq-dev" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/gabriel-almeida-dos-santos-25421838b" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
